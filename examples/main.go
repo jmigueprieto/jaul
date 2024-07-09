@@ -1,5 +1,9 @@
+// main package of the examples
 package main
 
+import "examples/utils"
+
+// just a sample main
 func main() {
-	println("hello examples!")
+	utils.Print("hello examples!")
 }

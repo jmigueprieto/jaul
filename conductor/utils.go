@@ -1,3 +1,4 @@
+// package with functions to work with Conductor
 package conductor_utils
 
 import (
