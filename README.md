@@ -2,4 +2,4 @@
 
 This project contains packages with "util" functions.
 
-(Just for demo purposes)
+WARNING: THIS IS NOT A FUNCTIONAL PROJECT IT'S JUST A DUMMY TEST project.
