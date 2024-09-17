@@ -15,4 +15,6 @@ jobs:
         uses: actions/checkout@v3
       - name: Test
         run: >
-          echo ${{ secrets.TEST_SECRET }}
+          echo $TEST
+        env:
+          TEST: ${{ secrets.TEST_SECRET }}
