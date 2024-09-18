@@ -16,6 +16,4 @@ jobs:
         uses: actions/checkout@v3
       - name: Test
         run: >
-          echo $TEST
-        env:
-          TEST: ${{ secrets.TEST_SECRET }}
+          cat test.txt
